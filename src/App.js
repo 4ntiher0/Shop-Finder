@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Body from './components/Body';
 import Footer from './components/Footer';
-import AboutPage from './routes/AboutPage';
+import ShopListPage from './routes/ShopListPage';
 import ContactPage from './routes/ContactPage';
 import AddShopForm from './components/AddShopForm'; // Import the new component
 
@@ -19,7 +19,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Body />} />
-          <Route path="/about" element={<AboutPage />} />
+          <Route path="/list" element={<ShopListPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/addShop" element={<AddShopForm />} /> {/* Add this line */}
         </Routes>

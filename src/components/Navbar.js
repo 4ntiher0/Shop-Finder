@@ -10,13 +10,13 @@ function Navbar() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/list">Shop List</Link>
         </li>
         <li>
           <Link to="/addShop">Add Shop</Link> {/* Add this line */}
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </div>
